@@ -10,8 +10,10 @@ Time series modeling using:
 
 ## TODO
  - Use the same time series and model it using RNNs, CNNs, SARIMA, FFT, SINDy so that the comparison is more direct.
- - Add LASSO, Random Forests, xgboost.
- - Apply models to more datasets.
+ - Seq2Seq NN models.
+ - More metrics: MAE, MSE, MAPE, ...
+ - More algorithms: Add LASSO, Random Forests, xgboost.
+ - Different cross validation strategies: One sequence at a time vs the progressively bigger training dataset used with [TimeSeriesSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html).
 
 **Acknowledgements**
 This repo borrows heavily from multiple sources that are listed below:
