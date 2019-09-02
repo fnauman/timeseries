@@ -11,7 +11,7 @@ Time series modeling using:
 ## TODO
  - Comparison: Use the same time series data for all algorithms.
  - NN: Seq2Seq models.
- - ML algorithms: LASSO, Random Forests, xgboost.
+ - xgboost.
  - Different cross validation strategies: One train/test split vs the progressively bigger training dataset used with [TimeSeriesSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html).
 
 **Acknowledgements**
