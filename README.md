@@ -1,7 +1,7 @@
 # timeseries
 
 Time series modeling using:
- - **Machine Learning** (Lasso, Random Forests): [lasso_rf_gridsearch_pipeline_candy.ipynb](lasso_rf_gridsearch_pipeline_candy.ipynb) does univariate forecasting for time series data. Hyperparameter optimization is done using the scikit-learn GridSearchCV funtion. Conclusion: Lasso does better!
+ - **Machine Learning** (XGBoost, Lasso, Random Forests): [lasso_rf_gridsearch_pipeline_candy.ipynb](lasso_rf_gridsearch_pipeline_candy.ipynb) does univariate forecasting for time series data. Hyperparameter optimization is done using the scikit-learn GridSearchCV funtion. Conclusion: Lasso does better!
  - **Deep Learning** (TensorFlow, Keras): [multivariate_tf2_keras_cnn_rnn.ipynb](multivariate_tf2_keras_cnn_rnn.ipynb) 
  This is the multivariate generalization of the univariate notebook on time series:
 [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow](https://github.com/ageron/handson-ml2/blob/master/15_processing_sequences_using_rnns_and_cnns.ipynb)
@@ -10,9 +10,8 @@ Time series modeling using:
  - **Dynamical Systems** (SINDy - Sparse Identification of Nonlinear Dynamics): [sindy_cubicmodel.ipynb](sindy_cubicmodel.ipynb) Based on the [Paper](https://www.pnas.org/content/113/15/3932). The python code is much simpler (as opposed to the MATLAB code that comes with the paper) because of [scikit-learn](https://github.com/scikit-learn/scikit-learn). SINDy can be used both to discover dynamical system equations and forecasting.
 
 ## TODO
- - Comparison: Use the same time series data for all algorithms.
+ - Comparison: Use the same univariate/multivariate time series data for all algorithms. Currently only using candy data set for SARIMA, xgboost, Lasso, Random Forests.
  - NN: Seq2Seq models.
- - xgboost.
  - Different cross validation strategies: One train/test split vs the progressively bigger training dataset used with [TimeSeriesSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html).
 
 **Acknowledgements**
