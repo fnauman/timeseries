@@ -1,7 +1,7 @@
 # timeseries
 
 Time series modeling using:
- - **Machine Learning** (XGBoost, Lasso, Random Forests): [lasso_rf_gridsearch_pipeline_candy.ipynb](lasso_rf_gridsearch_pipeline_candy.ipynb) does univariate forecasting for time series data. Hyperparameter optimization is done using the scikit-learn GridSearchCV funtion. Conclusion: Lasso does better!
+ - **Machine Learning** (XGBoost, Lasso, Random Forests): [xgboost_pipeline_candy.ipynb](xgboost_pipeline_candy.ipynb) does univariate forecasting for time series data. Hyperparameter optimization is done using the scikit-learn GridSearchCV funtion. Conclusion: Lasso does better!
  - **Deep Learning** (TensorFlow, Keras): [multivariate_tf2_keras_cnn_rnn.ipynb](multivariate_tf2_keras_cnn_rnn.ipynb) 
  This is the multivariate generalization of the univariate notebook on time series:
 [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow](https://github.com/ageron/handson-ml2/blob/master/15_processing_sequences_using_rnns_and_cnns.ipynb)
