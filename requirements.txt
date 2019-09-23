@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+joblib
+scikit-learn
+statsmodels
+tqdm
+scipy
+xgboost
+tensorflow==2.0.0-rc1
