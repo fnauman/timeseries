@@ -1,5 +1,15 @@
 # timeseries
 
+[![Binder][binder-badge]][binder-url]
+[![Google Colab][colab-badge]][colab-url]
+
+[binder-badge]: https://mybinder.org/badge.svg
+[binder-url]: https://mybinder.org/v2/gh/fnauman/timeseries/master
+[colab-badge]: https://colab.research.google.com/assets/colab-badge.svg
+[colab-url]: https://colab.research.google.com/github/fnauman/timeseries/blob/master/
+
+(Click the *Binder* or *Colab* links to open the notebooks and work with them in the cloud.)
+
 Time series modeling using:
  - **Machine Learning** (XGBoost, Lasso, Random Forests): [xgboost_pipeline_candy.ipynb](xgboost_pipeline_candy.ipynb) does univariate forecasting for time series data. Hyperparameter optimization is done using the scikit-learn GridSearchCV funtion. Conclusion: Lasso does better!
  - **Deep Learning** (TensorFlow, Keras): [multivariate_tf2_keras_cnn_rnn.ipynb](multivariate_tf2_keras_cnn_rnn.ipynb) 
