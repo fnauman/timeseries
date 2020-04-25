@@ -24,6 +24,7 @@ Time series modeling using:
    - SINDy - Sparse Identification of Nonlinear Dynamics: [sindy_cubicmodel.ipynb](sindy_cubicmodel.ipynb) Based on the [Paper](https://www.pnas.org/content/113/15/3932). The python code is much simpler (as opposed to the MATLAB code that comes with the paper) because of [scikit-learn](https://github.com/scikit-learn/scikit-learn). SINDy can be used both to discover dynamical system equations and forecasting. See also: [**Blog**](https://fnauman.github.io/sindy-dynamical-systems/)
 
 ## TODO
+ - Metrics: MSE/MAE, AIC/BIC (ARIMA), QQ plots, error distributions, ...
  - NN: Seq2Seq models.
  - Different cross validation strategies: One train/test split vs the progressively bigger training dataset used with [TimeSeriesSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html).
 
