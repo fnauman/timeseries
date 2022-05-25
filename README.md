@@ -14,7 +14,7 @@ Time series modeling using:
  - **Machine Learning** (XGBoost, Lasso, Random Forests): [xgboost_pipeline_candy.ipynb](candydata/xgboost_pipeline_candy.ipynb) does univariate forecasting for time series data. Hyperparameter optimization is done using the scikit-learn GridSearchCV funtion. Conclusion: Lasso does better!
  - **Deep Learning** (TensorFlow, Keras): 
    - [keras_tuner_candy.ipynb](candydata/keras_tuner_candy.ipynb): Hyperparameter optimization using [keras-tuner](https://github.com/keras-team/keras-tuner).
-   - [tf2_multivariate_rnn_cnn.ipynb](multivariate_tf2_keras_cnn_rnn.ipynb) 
+   - [tf2_multivariate_rnn_cnn.ipynb](tf2_multivariate_rnn_cnn.ipynb) 
  This is the multivariate generalization of the univariate notebook on time series:
 [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow](https://github.com/ageron/handson-ml2/blob/master/15_processing_sequences_using_rnns_and_cnns.ipynb)
  - **Econometrics** approach (SARIMA - Seasonal Autoregressive Integrated Moving Average): [sarima_candy.ipynb](candydata/sarima_candy.ipynb). Candy data that can be downloaded from the datacamp course [here](https://www.datacamp.com/courses/forecasting-using-arima-models-in-python). 
